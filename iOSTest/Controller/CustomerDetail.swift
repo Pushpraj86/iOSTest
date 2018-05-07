@@ -32,7 +32,7 @@ class CustomerDetail: UIViewController {
         lblEmail.text = CustomerEmail
         lblName.text = Databalance
         lblName.text = name
-        lblPrice.text = price
+        lblPrice.text = price!
         lblExpirydate.text = expirydate
         
         
