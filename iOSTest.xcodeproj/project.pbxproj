@@ -109,12 +109,10 @@
 		181DC6F820A03FB9004E3BF2 /* iOSTest */ = {
 			isa = PBXGroup;
 			children = (
+				181DC73620A0A4EF004E3BF2 /* Controller */,
+				181DC73520A0A4E3004E3BF2 /* Model */,
+				181DC73420A0A4D4004E3BF2 /* Miscellaneous */,
 				181DC6F920A03FBA004E3BF2 /* AppDelegate.swift */,
-				181DC72E20A078B8004E3BF2 /* Alert.swift */,
-				181DC73020A078C0004E3BF2 /* String+Extension.swift */,
-				181DC6FB20A03FBA004E3BF2 /* ViewController.swift */,
-				181DC73220A085E4004E3BF2 /* CustomerDetail.swift */,
-				181DC72A20A0677A004E3BF2 /* CustomerModel.swift */,
 				181DC6FD20A03FBA004E3BF2 /* Main.storyboard */,
 				181DC70320A03FBA004E3BF2 /* Assets.xcassets */,
 				181DC70520A03FBA004E3BF2 /* LaunchScreen.storyboard */,
@@ -141,6 +139,32 @@
 				181DC71E20A03FBB004E3BF2 /* Info.plist */,
 			);
 			path = iOSTestUITests;
+			sourceTree = "<group>";
+		};
+		181DC73420A0A4D4004E3BF2 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				181DC72E20A078B8004E3BF2 /* Alert.swift */,
+				181DC73020A078C0004E3BF2 /* String+Extension.swift */,
+			);
+			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		181DC73520A0A4E3004E3BF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				181DC72A20A0677A004E3BF2 /* CustomerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		181DC73620A0A4EF004E3BF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				181DC6FB20A03FBA004E3BF2 /* ViewController.swift */,
+				181DC73220A085E4004E3BF2 /* CustomerDetail.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
