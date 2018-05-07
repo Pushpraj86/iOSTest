@@ -15,6 +15,11 @@
 		181DC70720A03FBA004E3BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181DC70520A03FBA004E3BF2 /* LaunchScreen.storyboard */; };
 		181DC71220A03FBB004E3BF2 /* iOSTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DC71120A03FBB004E3BF2 /* iOSTestTests.swift */; };
 		181DC71D20A03FBB004E3BF2 /* iOSTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DC71C20A03FBB004E3BF2 /* iOSTestUITests.swift */; };
+		181DC72B20A0677A004E3BF2 /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DC72A20A0677A004E3BF2 /* CustomerModel.swift */; };
+		181DC72D20A06812004E3BF2 /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 181DC72C20A06812004E3BF2 /* collection.json */; };
+		181DC72F20A078B9004E3BF2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DC72E20A078B8004E3BF2 /* Alert.swift */; };
+		181DC73120A078C1004E3BF2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DC73020A078C0004E3BF2 /* String+Extension.swift */; };
+		181DC73320A085E4004E3BF2 /* CustomerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DC73220A085E4004E3BF2 /* CustomerDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		181DC71820A03FBB004E3BF2 /* iOSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181DC71C20A03FBB004E3BF2 /* iOSTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestUITests.swift; sourceTree = "<group>"; };
 		181DC71E20A03FBB004E3BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181DC72A20A0677A004E3BF2 /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		181DC72C20A06812004E3BF2 /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
+		181DC72E20A078B8004E3BF2 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		181DC73020A078C0004E3BF2 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		181DC73220A085E4004E3BF2 /* CustomerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +110,15 @@
 			isa = PBXGroup;
 			children = (
 				181DC6F920A03FBA004E3BF2 /* AppDelegate.swift */,
+				181DC72E20A078B8004E3BF2 /* Alert.swift */,
+				181DC73020A078C0004E3BF2 /* String+Extension.swift */,
 				181DC6FB20A03FBA004E3BF2 /* ViewController.swift */,
+				181DC73220A085E4004E3BF2 /* CustomerDetail.swift */,
+				181DC72A20A0677A004E3BF2 /* CustomerModel.swift */,
 				181DC6FD20A03FBA004E3BF2 /* Main.storyboard */,
 				181DC70320A03FBA004E3BF2 /* Assets.xcassets */,
 				181DC70520A03FBA004E3BF2 /* LaunchScreen.storyboard */,
+				181DC72C20A06812004E3BF2 /* collection.json */,
 				181DC70820A03FBA004E3BF2 /* Info.plist */,
 				181DC70020A03FBA004E3BF2 /* iOSTest.xcdatamodeld */,
 			);
@@ -238,6 +253,7 @@
 				181DC70720A03FBA004E3BF2 /* LaunchScreen.storyboard in Resources */,
 				181DC70420A03FBA004E3BF2 /* Assets.xcassets in Resources */,
 				181DC6FF20A03FBA004E3BF2 /* Main.storyboard in Resources */,
+				181DC72D20A06812004E3BF2 /* collection.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181DC73320A085E4004E3BF2 /* CustomerDetail.swift in Sources */,
 				181DC6FC20A03FBA004E3BF2 /* ViewController.swift in Sources */,
+				181DC72B20A0677A004E3BF2 /* CustomerModel.swift in Sources */,
 				181DC6FA20A03FBA004E3BF2 /* AppDelegate.swift in Sources */,
+				181DC72F20A078B9004E3BF2 /* Alert.swift in Sources */,
+				181DC73120A078C1004E3BF2 /* String+Extension.swift in Sources */,
 				181DC70220A03FBA004E3BF2 /* iOSTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
