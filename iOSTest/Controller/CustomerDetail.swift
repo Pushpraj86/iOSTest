@@ -30,7 +30,7 @@ class CustomerDetail: UIViewController {
          print(CustomerEmail)
         
         lblEmail.text = CustomerEmail
-        lblName.text = Databalance
+        lblDatabalance.text = Databalance
         lblName.text = name
         lblPrice.text = price
         lblExpirydate.text = expirydate

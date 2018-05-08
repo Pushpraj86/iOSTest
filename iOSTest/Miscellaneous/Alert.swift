@@ -1,11 +1,10 @@
 //
 //  Alert.swift
-//  DoTryCatch
+//  iOSTest
 //
-//  Created by Sean Allen on 8/30/17.
-//  Copyright © 2017 Sean Allen. All rights reserved.
+//  Created by Apple on 07/05/18.
+//  Copyright © 2018 Apple. All rights reserved.
 //
-
 import Foundation
 import UIKit
 
