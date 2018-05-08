@@ -25,15 +25,18 @@ class CustomerDetail: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(true, animated: false)
 
         // Do any additional setup after loading the view.
          print(CustomerEmail)
+        self.title = "Customer Details"
         
-        lblEmail.text = CustomerEmail
-        lblDatabalance.text = Databalance
-        lblName.text = name
-        lblPrice.text = price
-        lblExpirydate.text = expirydate
+        lblEmail.text =  "Customer Eamil: \(CustomerEmail) "
+       lblDatabalance.text =  "Data Balance: \(Databalance) "
+
+        lblName.text =  "Customer Name: \(name) "
+        lblPrice.text = "Product Price: \(price) "
+        lblExpirydate.text = "ExpiryDate: \(expirydate) "
         
         
     }
